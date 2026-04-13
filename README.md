@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Clone / download the project
@@ -22,7 +22,7 @@ Then open http://localhost:8501 in your browser.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 smart_resume_analyzer/
@@ -38,7 +38,7 @@ smart_resume_analyzer/
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### 1. Resume Parsing
 - PDF files are read using `pdfplumber`
@@ -64,7 +64,7 @@ smart_resume_analyzer/
 
 ---
 
-## 📊 Output Example
+## Output Example
 
 ```
 Match Score:       72.4%  →  Good Match 👍
@@ -73,14 +73,14 @@ JD Skills:         Python, SQL, TensorFlow, AWS, Docker, Pandas
 Missing Skills:    TensorFlow, AWS, Docker
 
 Suggestions:
-  📚 Learn: TensorFlow, AWS, Docker
-  ✏️ Add missing skills to your resume if you have experience
-  ✅ Strengthen project descriptions with role-specific terms
+  Learn: TensorFlow, AWS, Docker
+  Add missing skills to your resume if you have experience
+  Strengthen project descriptions with role-specific terms
 ```
 
 ---
 
-## 🌟 Future Enhancements
+## Future Enhancements
 
 - [ ] Named Entity Recognition (NER) for smarter skill extraction
 - [ ] BERT/Sentence-Transformers for semantic (not just keyword) similarity
