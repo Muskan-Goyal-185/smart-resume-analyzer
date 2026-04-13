@@ -1,0 +1,8 @@
+# Smart Resume Analyzer — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+streamlit>=1.32.0        # Web UI framework
+pdfplumber>=0.10.3       # PDF text extraction
+scikit-learn>=1.4.0      # TF-IDF vectorizer + cosine similarity
+pandas>=2.2.0            # Data handling (used for future CSV export features)
+numpy>=1.26.0            # Numerical operations (dependency of sklearn)
